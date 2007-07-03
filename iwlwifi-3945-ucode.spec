@@ -9,7 +9,7 @@ Release: %{release}
 Source0: http://intellinuxwireless.org/iwlwifi/downloads/%{name}-%{version}.tar.bz2
 License: Proprietary
 Group: System/Kernel and hardware
-Url: http://linux-lc100020.sourceforge.net/
+Url: http://intellinuxwireless.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
