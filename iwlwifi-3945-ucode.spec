@@ -14,7 +14,6 @@ Source1: http://intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-2.14
 License: Proprietary
 Group: System/Kernel and hardware
 Url: http://intellinuxwireless.org/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
 %description
