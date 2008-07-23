@@ -1,6 +1,6 @@
 %define name iwlwifi-3945-ucode
 %define version 2.14.4
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Intel PRO/Wireless 3945ABG/BG microcode
 Name: %{name}
