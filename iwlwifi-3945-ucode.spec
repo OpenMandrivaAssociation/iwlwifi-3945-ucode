@@ -1,12 +1,8 @@
-%define name iwlwifi-3945-ucode
-%define version 15.28.2.8
-%define release %mkrel 1
-
 Summary: Intel PRO/Wireless 3945ABG/BG microcode
-Name: %{name}
+Name: iwlwifi-3945-ucode
 Epoch: 1
-Version: %{version}
-Release: %{release}
+Version: 15.28.2.8
+Release: %mkrel 2
 Source0: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-%{version}.tgz
 Source1: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-15.28.1.8.tgz
 License: Proprietary
@@ -26,6 +22,9 @@ on your system.
 
 # provide old firmware with ucode_api=1 for compatibility with older kernels
 cp iwlwifi-3945-ucode-15.28.1.8/iwlwifi-3945-1.ucode .
+cp iwlwifi-3945-ucode-15.28.1.8/README.iwlwifi-3945-ucode \
+   README.iwlwifi-3945-ucode-1
+mv README.iwlwifi-3945-ucode README.iwlwifi-3945-ucode-2
 
 %build
 
