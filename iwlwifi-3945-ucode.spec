@@ -1,8 +1,8 @@
 Summary: Intel PRO/Wireless 3945ABG/BG microcode
 Name: iwlwifi-3945-ucode
 Epoch: 1
-Version: 15.28.2.8
-Release: %mkrel 2
+Version: 15.32.2.9
+Release: %mkrel 1
 Source0: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-%{version}.tgz
 Source1: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-15.28.1.8.tgz
 License: Proprietary
@@ -12,7 +12,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
 %description
-The file iwlwifi-3945-1.ucode provided in this package is required to be
+The file iwlwifi-3945-*.ucode provided in this package is required to be
 present on your system in order for the Intel PRO/Wireless 3945ABG/BG Network
 Connection Adapter driver for Linux (iwl3945) to be able to operate
 on your system.
@@ -37,6 +37,6 @@ install -m644 *.ucode %{buildroot}/lib/firmware/
 rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root)
+%defattr(0644,root,root,0755)
 %doc LICENSE.* README.*
 /lib/firmware/*.ucode
