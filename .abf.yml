@@ -1,3 +1,3 @@
 sources:
-  "iwlwifi-3945-ucode-15.28.1.8.tgz:"	13af981c19035d35f41df9a238f08bbf56ec1044
-  "iwlwifi-3945-ucode-15.32.2.9.tgz:"	0e53846a25b9ec5f6f56559f6cc0778227e5564c
+  iwlwifi-3945-ucode-15.28.1.8.tgz: 13af981c19035d35f41df9a238f08bbf56ec1044
+  iwlwifi-3945-ucode-15.32.2.9.tgz: 0e53846a25b9ec5f6f56559f6cc0778227e5564c
