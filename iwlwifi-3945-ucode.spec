@@ -2,7 +2,7 @@ Summary: Intel PRO/Wireless 3945ABG/BG microcode
 Name: iwlwifi-3945-ucode
 Epoch: 1
 Version: 15.32.2.9
-Release: %mkrel 1
+Release: 2
 Source0: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-%{version}.tgz
 Source1: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-15.28.1.8.tgz
 License: Proprietary
