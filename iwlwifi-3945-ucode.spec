@@ -7,7 +7,7 @@ Source0: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-
 Source1: http://www.intellinuxwireless.org/iwlwifi/downloads/iwlwifi-3945-ucode-15.28.1.8.tgz
 License: Proprietary
 Group: System/Kernel and hardware
-Url: http://intellinuxwireless.org/
+Url: https://intellinuxwireless.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
